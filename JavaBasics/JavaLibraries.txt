@@ -1,0 +1,12 @@
+Here are essential Java libraries you should know:
+
+Apache Commons - It provides a set of reusable Java components. It helps to improve file upload, string handling, and logging tasks.
+ 
+Jackson - It is a high-performance JSON library. You can use it for parsing and generating JSON data in Java.
+ 
+JUnit - It is a testing framework. You can use it for writing unit tests in Java.
+ 
+Google Guava - It is an open-source set of core Java libraries. It has utilities for collections, caching, concurrency etc.
+ 
+Hibernate - It is an object-relational mapping (ORM) framework. It simplifies database programming. It maps Java objects to database tables.
+

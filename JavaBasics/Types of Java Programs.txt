@@ -1,11 +1,11 @@
 There are many types of Java programs:
 
-Java Applets - These are small Java programs. They run within web browsers.
+Java Applets - Small Java programs. They run within web browsers.
  
 Java Applications - These are standalone programs. They run on a computer without the need for a web browser.
  
-Java Servlets - They run on web servers. They handle HTTP requests and responses between a client and a server.
+Java Servlets - Run on web servers. They handle HTTP requests and responses between a client and a server.
  
-JavaServer Pages (JSP) - It is a server-side technology. They help to create dynamic web pages using Java.
+JavaServer Pages (JSP) - Server-side technology. They help to create dynamic web pages using Java.
  
-JavaBeans - They are reusable components for making Java applications.
+JavaBeans - Reusable components for making Java applications.

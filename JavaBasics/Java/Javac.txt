@@ -1,0 +1,8 @@
+                  java	                                 javac
+Syntax:  java filename	                        Syntax: javac filename.java
+It runs Java programs.	                        It compiles Java source code.
+It is in the Java Runtime Environment (JRE).	It is in the Java Development Kit (JDK).
+It executes bytecode.	                        It generates bytecode.
+You can use it to execute Java 
+applications and applets.	                You can use it to create Java class files.
+It can run on any system with a JRE.	     It requires a system with the JDK.
