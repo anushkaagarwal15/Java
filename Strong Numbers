@@ -1,0 +1,44 @@
+public class Main{
+    
+   public static int fact(int n){
+        
+        int fact = 1;
+        
+        for(int i=1; i<=n; i++){
+            fact = fact * i;
+            
+        }
+        
+        return fact;
+    }
+    
+    public static int detectStrong(int num){
+        int sum = 0;
+       int temp = num;
+        
+        while(temp!= 0){
+           int digit = temp %10;
+            
+            sum += fact(digit);
+            temp = temp / 10;
+        }
+        
+        if(sum == num)
+        return 1;
+        
+        else
+        return 0;
+    }
+    
+    public static void main(String args[]){
+        
+        int num = 45;
+        
+        if(detectStrong(num) == 1){
+            System.out.println("It is strong");
+        }
+        else{
+            System.out.println("Not strong");
+        }
+    }
+}
